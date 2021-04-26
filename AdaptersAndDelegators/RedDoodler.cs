@@ -11,7 +11,7 @@ namespace WrappersAndDelegates
 
         public void DoodleUsingCrayon(string text)
         {
-            DoodleInRed($"doodling using crayon");
+            throw new NotImplementedException();
         }
 
         private static void DoodleInRed(string text)

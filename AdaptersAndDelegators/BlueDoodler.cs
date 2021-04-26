@@ -6,7 +6,7 @@ namespace WrappersAndDelegates
     {
         public void DoodleUsingPencil(string text)
         {
-            DoodleInBlue($"doodling using pencil");
+            throw new NotImplementedException();
         }
 
         public void DoodleUsingCrayon(string text)
