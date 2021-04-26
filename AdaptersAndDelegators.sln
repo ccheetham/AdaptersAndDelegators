@@ -1,6 +1,6 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WrappersAndDelegates", "WrappersAndDelegates\WrappersAndDelegates.csproj", "{0D8DAE69-19F6-461C-8CE6-5FAB34311E15}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdaptersAndDelegators", "AdaptersAndDelegators\AdaptersAndDelegators.csproj", "{0D8DAE69-19F6-461C-8CE6-5FAB34311E15}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
