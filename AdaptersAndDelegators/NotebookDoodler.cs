@@ -1,6 +1,6 @@
 using System;
 
-namespace WrappersAndDelegates
+namespace AdaptersAndDelegators
 {
     public class NotebookDoodler : DoodlerAdapter, IDisposable
     {

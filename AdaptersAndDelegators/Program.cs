@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace WrappersAndDelegates
+﻿namespace AdaptersAndDelegators
 {
     class Program
     {

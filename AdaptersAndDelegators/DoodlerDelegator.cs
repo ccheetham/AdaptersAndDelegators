@@ -1,4 +1,4 @@
-namespace WrappersAndDelegates
+namespace AdaptersAndDelegators
 {
     public class DoodlerDelegator : IDoodler
     {
