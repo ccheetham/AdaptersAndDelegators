@@ -1,6 +1,6 @@
 namespace WrappersAndDelegates
 {
-    public class DoodlerDelegate : IDoodler
+    public class DoodlerDelegator : IDoodler
     {
         private IDoodler _red = new RedDoodler();
         private IDoodler _blue = new BlueDoodler();

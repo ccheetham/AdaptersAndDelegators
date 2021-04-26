@@ -6,7 +6,7 @@ namespace WrappersAndDelegates
     {
         static void Main(string[] args)
         {
-            using var doodler = new NotebookDoodler(new DoodlerDelegate());
+            using var doodler = new NotebookDoodler(new DoodlerDelegator());
             doodler.DoodleUsingPencil("peas porridge hot");
             doodler.DoodleUsingCrayon("peas porridge cold");
         }
