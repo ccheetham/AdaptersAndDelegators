@@ -2,7 +2,7 @@ using System;
 
 namespace WrappersAndDelegates
 {
-    public class NotebookDoodler : DoodlerWrapper, IDisposable
+    public class NotebookDoodler : DoodlerAdapter, IDisposable
     {
         public NotebookDoodler(IDoodler doodler) : base(doodler)
         {

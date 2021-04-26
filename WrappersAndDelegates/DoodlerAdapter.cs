@@ -1,10 +1,10 @@
 namespace WrappersAndDelegates
 {
-    public abstract class DoodlerWrapper : IDoodler
+    public abstract class DoodlerAdapter : IDoodler
     {
         private readonly IDoodler _doodler;
 
-        public DoodlerWrapper(IDoodler doodler)
+        public DoodlerAdapter(IDoodler doodler)
         {
             _doodler = doodler;
         }
