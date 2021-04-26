@@ -1,3 +1,3 @@
 ```
-dotnet run -p WrappersAndDelegates
+dotnet run -p AdaptersAndDelegators
 ```
