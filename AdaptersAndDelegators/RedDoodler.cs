@@ -6,20 +6,15 @@ namespace WrappersAndDelegates
     {
         public void DoodleUsingPencil(string text)
         {
-            DoodleInRed($"doodling using pencil");
+            var save = Console.ForegroundColor;
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.WriteLine(text);
+            Console.ForegroundColor = save;
         }
 
         public void DoodleUsingCrayon(string text)
         {
             throw new NotImplementedException();
-        }
-
-        private static void DoodleInRed(string text)
-        {
-            var save = Console.ForegroundColor;
-            Console.ForegroundColor = ConsoleColor.Red;
-            Console.WriteLine(text);
-            Console.ForegroundColor = save;
         }
     }
 }

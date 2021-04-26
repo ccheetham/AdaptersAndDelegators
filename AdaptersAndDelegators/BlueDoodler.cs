@@ -11,11 +11,6 @@ namespace WrappersAndDelegates
 
         public void DoodleUsingCrayon(string text)
         {
-            DoodleInBlue($"doodling using crayon");
-        }
-
-        private static void DoodleInBlue(string text)
-        {
             var save = Console.ForegroundColor;
             Console.ForegroundColor = ConsoleColor.Blue;
             Console.WriteLine(text);
